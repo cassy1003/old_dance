@@ -37,6 +37,10 @@
   text-align: left;
 }
 
+.testimonials-title h2 {
+  width: 120px;
+}
+
 .service {
   height: 240px;
   margin-top: 20px;
@@ -54,6 +58,10 @@
 
 .about-us-text {
   padding-top: 0px;
+}
+
+.about-box {
+  padding: 10px;
 }
 
 .pricing-1-box-features li {
