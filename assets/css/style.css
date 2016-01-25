@@ -67,3 +67,31 @@
 .pricing-1-box-features li {
   height: 60px;
 }
+
+.cal_wrapper {
+  max-width: 800px; /* 最大幅 */
+  min-width: 300px; /* 最小幅 */
+  margin: 2.0833% auto;
+}
+
+.googlecal {
+  position: relative;
+  padding-bottom: 100%; /* 縦横比 */
+  height: 600px;
+  overflow: hidden;
+}
+
+.googlecal iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media only screen and (min-width: 600px) {
+  /* 画面幅が600px以上の場合の縦横比の指定 */
+  .googlecal {
+    padding-bottom: 75%;
+  }
+}
